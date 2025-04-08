@@ -20,7 +20,7 @@ export default function CodeToDocs() {
   // Initialize OpenAI client
   const openai = new OpenAI({
     baseURL: "https://api.aimlapi.com/v1",
-    apiKey: "d7f3594e56b449bbaaa51453c2aa4a8e",
+    apiKey: "API_KEY",
     dangerouslyAllowBrowser: true,
   })
 
